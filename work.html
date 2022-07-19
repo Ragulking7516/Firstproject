@@ -4,48 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="intex.css">
+    <title>Todos</title>
+    <link rel="stylesheet" href="script.css">
 </head>
 <body>
- <div id="mydiv"
-    class="header">
-        <h1> todosr</h1>
-        <input type="text"
-     id="myInput"
-     placeholder="what needs to do done?">
-        <span onclick="newElement()"
-        class="addBtn">add</span> 
-  </div>       
-<ul id="myUL">
-    <li>Hit the gym</li>
-    <li class="checked">paybills</li>
-    <li>RAGUL.R BBA(CA)</li>
-    <li> HTML </li>
-    <li>Read a book IN HTML,CSS,JAVASCRIPT</li>
-    <li> CITY UNION BANK IN CUDDALORE</li>
-    <li>Army and Police</li>
-    <li> Arts and Science</li>
-</ul>
-     <div class="controls">
-         <div class="filters">
-             <span id="all" class="active">ALL</span>
-             <span id="pending">Active</span>
-             <span id="completed">Completed</span>
-          </div>
-          <button class="clear-btn">Clear completed</button>
-    </div>   
-<script src="intex.js">
-</script>
+    <section class="todoapp">
+        <header class="header">
+            <h1>todos</h1>
+        </header>
+    </section>
+  <div class="wrapper">
+    <div class="task-input">
+      <input type="text" placeholder="What needs to be done?">
+    </div>
+    <ul class="task-box"></ul>
+    <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Active</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear Completed</button>
+      </div>
+  </div>
+  <footer class="info">
+            <p>Double-click to edit a todo</p>
+			<p>Created by <a href="http://twitter.com/oscargodson">Oscar Godson</a></p>
+			<p>Refactored by <a href="https://github.com/cburgmer">Christoph Burgmer</a></p>
+			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+</footer>
+  <script src="script.js"></script>
 </body>
 </html>
-<div class="controls">
-      <div class="filters">
-        <span class="active" id="all">All</span>
-        <span id="pending">Pending</span>
-        <span id="completed">Completed</span>
-      </div>
-      <button class="clear-btn">Clear All</button>
-    </div>       
-
-
