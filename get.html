@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Form</title>
+    <link rel="stylesheet" href="get.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <form action="https://formspree.io/f/mrgdgkyk" method="post">
+                <div class="header">
+                    <h1>
+                        Get In Touch
+                    </h1>
+                </div>
+                <div class="fields">
+                <div class="field1">
+                    <div class="field f-1">
+                        <input type="text" name="FirstName" placeholder="First Name" required/>
+                    </div>
+                    <div class="field f-1">
+                        
+                        <input type="text" name="LastName" placeholder="Last Name" required/>
+                    </div>
+                </div>
+                <div class="field2">
+                    <div class="field f-2">
+                        <input type="email" name="Email" placeholder="Email" required/>
+                    </div>
+                    <div class="field f-2">
+                        <input type="number" name="Phone" placeholder="Phone" required/>
+                    </div>
+                </div>
+                     <div class="field f-3">
+                         <input type="address" name="address" placeholder="Address" required/>
+                     </div>
+        </div>
+                <div class="message">
+                    <input type="textarea" name="Message" placeholder="Type your message here" required/>
+                    
+                </div>
+                <button>
+                    Submit
+                </button>
+            </form>
+            <p id="my-form-status"></p>
+        </div>
+    </div>
+</body>
+<script src="get.js"></script>
+</html>
