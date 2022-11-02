@@ -1,36 +1,58 @@
- 
-*{
+ *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .container{
      display: flex;
      justify-content: center;
      align-items: center;
      width: 100%;
      height: 100vh;
-     background: #acacfc;    
+     background: #adc4ff;    
 }
 
 .form{
     width: 40%;
-    padding: 45px;
+    padding: 40px;
     background: #ffff;
 }
+
 .header{
-    color: #1300a7;
-    font-weight: lighter;
-    padding-bottom: 20px;
-    font-family: sans-serif;
+    color: #3c00ff; 
+} 
+p{
+    font-size: 25px;
     margin-left: 10px;
+    position: relative;
+    top: -27px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .field1{
     width: 95%;
     display: flex;
     align-items: center;
     padding-bottom: 15px;
-    color: black;
+}
+::-webkit-input-placeholder{
+    color: rgb(17, 3, 172);
+    font-size: medium;
+    padding-left: 10px;
+    margin-top: 10px; 
+}
+.field5{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.field4{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
 }
 .field2{
      width: 95%;
@@ -39,21 +61,28 @@
      padding-bottom: 15px;
 }
 .address{
-    width: 95%;
+    width: 96%;
     padding-bottom: 10px;
     align-items: center;
     display: flex;
     margin-top: 5px;
 }
 .message{
-    width: 95%;
+    width: 96%;
     padding-bottom: 10px;
     align-items: center;
     display: flex;
     margin-top: 5px;
-}    
+}  
+   
 .field{
     padding-left: 10px;
+}
+.f-5{
+    padding-left: 20px;
+}
+.f-4{
+    padding-left: 15px;
 }
 .field input{
     height: 40px;
@@ -61,12 +90,12 @@
     padding-left:5px;
     width: 100%;
     font-size: large;
-    outline: none;
+    outline: none; 
     border: none;
     border-radius: 5px;
 }
 .address input{
-    background: #c3aefc;
+    background: #b59aff;
     height: 50px;
     width: 100%;
     font-size: large;
@@ -76,8 +105,24 @@
     border-radius : 7px;
     padding-left: 5px;
 }
+.message textarea{
+    background: #a789f9;
+    height: 45px;
+    width: 100%;
+    font-size: large;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    border-radius : 7px;
+    min-width: 92%;
+    max-width: 92%;
+    min-height: 75px;
+    max-height: 75px; 
+    padding: 10px 20px 0 7px;
+}
+
 .message input{
-    background: #b0a5f3;
+    background: #936dfd;
     height: 50px;
     width: 100%;
     font-size: large;
@@ -85,17 +130,21 @@
     border: none;
     margin-left: 10px;
     border-radius : 7px;
-    padding-left: 5px;
+    padding: 10px;
 }
 
 .f-1 input{
     background:  #dbc8fe;
-    color: #f3f2f8;
+}
+.f-5 input{
+    background: #dbc8fe;
 }
 .f-2 input{
     background:  #d2b2ff;
 }
-
+.f-4 input{
+    background: #dbc8fe;
+}
 button{
     align-items: center;
     cursor: pointer;
@@ -109,9 +158,5 @@ button{
     margin-top: 20px;
     margin-left: 170px;
 }
-p{
-    margin-left: 10px;
-    font-size: medium;
-    margin-top: 10px;
-}
+
 
